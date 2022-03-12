@@ -92,9 +92,9 @@ void main()
 							break;
 						}
 						else
-							printf("\nInsufficient banalce\n");
+							printf("\nInsufficient balance\n");
 					}
-					printf("Do you want to continue the transection[y/n]\n");
+					printf("Do you want to continue the transaction[y/n]\n");
 					scanf("%s",&count);
 				}
 			}
