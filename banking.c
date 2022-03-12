@@ -44,9 +44,9 @@ void main()
 	else
 	{
 		printf("\t\t\t\tLogin account\n\n");
-		printf("Enter the ID:\t");
+		printf("Enter the ID:\t\t");
 		scanf("%s",user.phone);
-		printf("\nEnter the password:\t\t");
+		printf("\nEnter the password:\t");
 		scanf("%s",pword);
 		strcpy(filename,user.phone);
 		fp=fopen(strcat(filename,".dat"),"r");
